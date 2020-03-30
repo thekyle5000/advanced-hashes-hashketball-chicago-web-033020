@@ -106,7 +106,7 @@ play_hash
 end
 
 def big_shoe_rebounds
-shoe_array []
+shoe_array = []
 all_players_array.each do |k|
   binding.pry 
 shoe_array << k[:shoe]
