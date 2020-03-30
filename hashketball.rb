@@ -106,6 +106,6 @@ play_hash
 end
 
 def big_shoe_rebounds
-all_players_array.max
+all_players_array.max |k|
 end
 
