@@ -95,6 +95,12 @@ end
 
 
 def player_stats(name)
-all_players_array.each do |
+play_hash = {}
+all_players_array.each do |k|
+if name == k[:player_name]
+  
+end
+
+delete(:player_name)
 end
 
