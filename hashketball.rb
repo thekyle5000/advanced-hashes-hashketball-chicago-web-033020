@@ -106,6 +106,6 @@ play_hash
 end
 
 def big_shoe_rebounds
-
+.find_index |k|
 end
 
