@@ -93,8 +93,8 @@ end
 number_array
 end
 
-
+binding.pry
 def player_stats(name)
-
+all_players_array.each do |
 end
 
