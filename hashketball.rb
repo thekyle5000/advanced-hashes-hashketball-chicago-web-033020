@@ -106,6 +106,9 @@ play_hash
 end
 
 def big_shoe_rebounds
-
+shoe_array []
+all_players_array.each do |k|
+shoe_array << k[:shoe]
+end
 end
 
