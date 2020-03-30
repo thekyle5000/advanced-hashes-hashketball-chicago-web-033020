@@ -116,4 +116,5 @@ if e[:shoe] = s_shoe_array.max
   return e[:rebounds]
 end
 end
+end
 
