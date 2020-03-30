@@ -113,8 +113,8 @@ end
 s_shoe_array = shoe_array.sort
 value = 0 
 all_players_array.each do |e|
-if e[:shoe] = s_shoe_array.max
-
+if e[:shoe] == s_shoe_array.max
+return e[:rebunds]
 end
 end
 end
