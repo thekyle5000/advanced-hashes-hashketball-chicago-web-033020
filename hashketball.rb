@@ -108,7 +108,7 @@ end
 def big_shoe_rebounds
 shoe_array []
 all_players_array.each do |k|
-  binding.pry
+  binding.pry 
 shoe_array << k[:shoe]
 end
 s_shoe_array = shoe_array.sort
