@@ -110,5 +110,7 @@ shoe_array []
 all_players_array.each do |k|
 shoe_array << k[:shoe]
 end
+s_shoe_array = shoe_array.sort
+binding.pry
 end
 
