@@ -94,7 +94,7 @@ number_array
 end
 
 
-# def player_stats(name)
-# all_players_array.each do |
-# end
+def player_stats(name)
+all_players_array.each do |
+end
 
