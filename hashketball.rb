@@ -89,6 +89,7 @@ else
   game_hash[:away][:players].each do |k|
   number_array << k[:number]
 end
+end
 number_array
 end
 
