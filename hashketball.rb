@@ -95,12 +95,13 @@ end
 
 
 def player_stats(name)
-play_hash = {}
+play_hash = nil
 all_players_array.each do |k|
 if name == k[:player_name]
-  
+  play_hash = k
 end
-
-delete(:player_name)
+end
+play_hash.delete(:player_name)
+play_hash
 end
 
