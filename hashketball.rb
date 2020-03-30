@@ -114,6 +114,7 @@ s_shoe_array = shoe_array.sort
 all_players_array.each do |e|
 if e[:shoe] = s_shoe_array.max
   return e[:rebounds]
+  binding.pry
 end
 end
 end
