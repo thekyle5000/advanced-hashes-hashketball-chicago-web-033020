@@ -111,10 +111,10 @@ all_players_array.each do |k|
 shoe_array << k[:shoe]
 end
 s_shoe_array = shoe_array.sort
-binding.pry
+value = 0 
 all_players_array.each do |e|
 if e[:shoe] = s_shoe_array.max
-  return e[:rebounds]
+
 end
 end
 end
